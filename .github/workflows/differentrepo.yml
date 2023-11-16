@@ -1,0 +1,8 @@
+name:  different repo
+on: workflow_call
+jobs:
+ run-script:
+  runs-on: ubuntu-latest
+  steps:
+  - name: run a script
+    run: echo THIS IS COMING FROM A DIFFERENT REPO
